@@ -44,7 +44,7 @@ local elisven = {2770, 3785, 20378, 20403, 20298, 20076, 20073, 20085,
                 8726, 10472, 8646, 20305, 10466, 10106, 20383, 2638, 20334,
                 10470, 2638, 9635, 9641, 9639, 3792, 9298, 8648, 10468, 2636, 20105, 20386}
 for k, c in pairs(elisven) do
-    setRoomEnv(c, 584123131)
+    setRoomEnv(c, 33333333333)
     local r,g,b = unpack(color_table.DeepPink)
     setCustomEnvColor(33333333333, r,g,b, 255,20,147)
 end
