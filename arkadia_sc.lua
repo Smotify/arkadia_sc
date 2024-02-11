@@ -2,7 +2,7 @@ arkadia_sc = arkadia_sc or {
     state = {}
 }
 function arkadia_sc:zmeczenieSC()
-scZmeczenie = tempAlias(^/zm (.*)$, [[
+scZmeczenie = tempAlias("^/zm (.*)$", [[
 zmeczenie = scripts.character.state.fatigue
 zm = ""
 if zmeczenie == 0 then
