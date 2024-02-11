@@ -1,3 +1,4 @@
 return {
-    "arkadia_sc"
+    "arkadia_sc",
+    "zmeczenie_powiedz_sc"
 }
