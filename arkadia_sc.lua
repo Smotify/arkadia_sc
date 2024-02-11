@@ -9,157 +9,45 @@ function arkadia_sc:helpSC()
 end
 
 function arkadia_sc:eventySC()
-    scEventy = tempAlias("^/laduj_eventy$", [[
-        cecho("<red>Koloruje roomy, rusz sie w ktoryms kierunku na mapie, moze na chwile zlagowac\n\n")
-        --Wszystko inne
-        --Ishatr
-        setRoomEnv(20088, 111111111111)
-        setRoomEnv(7995, 111111111111)
-        setRoomEnv(959, 111111111111)
-        setRoomEnv(938, 111111111111)
-        setRoomEnv(4408, 111111111111)
-        setRoomEnv(8965, 111111111111)
-        setRoomEnv(19801, 111111111111)
-        setRoomEnv(4294, 111111111111)
-        setRoomEnv(10271, 111111111111)
-        setRoomEnv(4549, 111111111111)
-        setRoomEnv(4084, 111111111111)
-        setRoomEnv(4018, 111111111111)
-        setRoomEnv(9674, 111111111111)
-        setRoomEnv(1967, 111111111111)
-        setRoomEnv(1922, 111111111111)
-        setRoomEnv(1866, 111111111111)
-        setRoomEnv(1863, 111111111111)
-        setRoomEnv(24488, 111111111111)
-        setRoomEnv(2181, 111111111111)
-        setRoomEnv(23872, 111111111111)
-        setRoomEnv(2770, 111111111111)
-        setRoomEnv(9509, 111111111111)
-        setRoomEnv(9549, 111111111111)
-        setRoomEnv(9545, 111111111111)
-        setRoomEnv(25332, 111111111111)
-        setRoomEnv(2751, 111111111111)
-        setRoomEnv(7919, 111111111111)
-        setRoomEnv(24408, 111111111111)
-        setRoomEnv(23130, 111111111111)
-        setRoomEnv(24409, 111111111111)
-        setRoomEnv(24409, 111111111111)
-        setRoomEnv(9321, 111111111111)
-        setRoomEnv(9347, 111111111111)
-        setRoomEnv(388, 111111111111)
-        setRoomEnv(16131, 111111111111)
-        setRoomEnv(347, 111111111111)
-        setRoomEnv(3748, 111111111111)
-        setRoomEnv(1105, 111111111111)
-        setRoomEnv(185, 111111111111)
-        setRoomEnv(2974, 111111111111)
-        setRoomEnv(25288, 111111111111)
-        setRoomEnv(10760, 111111111111)
-        setRoomEnv(3291, 111111111111)
-        setRoomEnv(20808, 111111111111)
-        setRoomEnv(23664, 111111111111)
-        setRoomEnv(20177, 111111111111)
-        setRoomEnv(18295, 111111111111)
-        setRoomEnv(8550, 111111111111)
-        setRoomEnv(7993, 111111111111)
-        setRoomEnv(22782, 111111111111)
-        setRoomEnv(22512, 111111111111)
-        setRoomEnv(2794, 111111111111)
-        setRoomEnv(16649, 111111111111)
-        setRoomEnv(4525, 111111111111)
-        setRoomEnv(2840, 111111111111)
-        setRoomEnv(4230, 111111111111)
-        setRoomEnv(1717, 111111111111)
-        setRoomEnv(2840, 111111111111)
-        setRoomEnv(1724, 111111111111)
-        setRoomEnv(3618, 111111111111)
-        setRoomEnv(8058, 111111111111)
-        --Imp
-        setRoomEnv(7118, 111111111111)
-        setRoomEnv(7109, 111111111111)
-        setRoomEnv(7070, 111111111111)
-        setRoomEnv(6303, 111111111111)
-        setRoomEnv(2840, 111111111111)
-        setRoomEnv(16438, 111111111111)
-        setRoomEnv(16439, 111111111111)
-        setRoomEnv(16443, 111111111111)
-        setRoomEnv(16440, 111111111111)
-        setRoomEnv(6242, 111111111111)
-        setRoomEnv(24525, 111111111111)
-        setRoomEnv(16368, 111111111111)
-        setRoomEnv(16367, 111111111111)
-        setRoomEnv(16366, 111111111111)
-        setRoomEnv(16365, 111111111111)
-        setRoomEnv(17036, 111111111111)
-        setRoomEnv(17037, 111111111111)
-        setRoomEnv(6154, 111111111111)
-        setRoomEnv(17035, 111111111111)
-        setRoomEnv(6096, 111111111111)
-        setRoomEnv(6829, 111111111111)
-        setRoomEnv(6827, 111111111111)
-        setRoomEnv(6826, 111111111111)
-        setRoomEnv(6825, 111111111111)
-        setRoomEnv(6821, 111111111111)
-        setRoomEnv(6790, 111111111111)
-        setRoomEnv(11403, 111111111111)
-        setRoomEnv(7617, 111111111111)
-        setRoomEnv(5227, 111111111111)
-        setRoomEnv(5447, 111111111111)
-        setRoomEnv(2840, 111111111111)
-        setRoomEnv(2840, 111111111111)
-        setRoomEnv(2840, 111111111111)
-        setRoomEnv(2840, 111111111111)
-        setRoomEnv(2840, 111111111111)
-        local r,g,b = unpack(color_table.DarkOrange)
-        setCustomEnvColor(111111111111, r,g,b, 255,144,0)
-        cecho("<DarkOrange>Inne eventowe NPC\n\n")
-        
-        --SS
-        
-        setRoomEnv(18774, 584123131)
-        setRoomEnv(20322, 584123131)
-        setRoomEnv(23012, 584123131)
-        setRoomEnv(20069, 584123131)
-        setRoomEnv(24729, 584123131)
-        setRoomEnv(22977, 584123131)
-        local r,g,b = unpack(color_table.ansiLightMagenta)
-        setCustomEnvColor(584123131, r,g,b, 255,0,255)
-        cecho("<ansiLightMagenta>SS Aedirn\n\n")
-        
-        --Elisven
-        
-        setRoomEnv(3785, 33333333333)
-        setRoomEnv(20378, 33333333333)
-        setRoomEnv(20403, 33333333333)
-        setRoomEnv(20298, 33333333333)
-        setRoomEnv(20098, 33333333333)
-        setRoomEnv(20076, 33333333333)
-        setRoomEnv(20073, 33333333333)
-        setRoomEnv(20085, 33333333333)
-        setRoomEnv(20080, 33333333333)
-        setRoomEnv(22982, 33333333333)
-        setRoomEnv(2671, 33333333333)
-        setRoomEnv(20343, 33333333333)
-        setRoomEnv(3387, 33333333333)
-        setRoomEnv(3374, 33333333333)
-        setRoomEnv(3383, 33333333333)
-        setRoomEnv(8754, 33333333333)
-        setRoomEnv(8727, 33333333333)
-        setRoomEnv(8726, 33333333333)
-        setRoomEnv(10472, 33333333333)
-        setRoomEnv(8646, 33333333333)
-        setRoomEnv(20305, 33333333333)
-        setRoomEnv(10466, 33333333333)
-        setRoomEnv(10106, 33333333333)
-        setRoomEnv(20383, 33333333333)
-        setRoomEnv(2638, 33333333333)
-        setRoomEnv(20334, 33333333333)
-        setRoomEnv(10470, 33333333333)
-        setRoomEnv(2638, 33333333333)
-        setRoomEnv(10093, 33333333333)
-        local r,g,b = unpack(color_table.DeepPink)
-        setCustomEnvColor(33333333333, r,g,b, 255,20,147)
-        cecho("<DeepPink>Elisven\n\n")
+    scEventy = tempAlias("^/eventy_sc$", [[
+cecho("<red>Koloruje roomy, rusz się w którymś kierunku na mapie, może na chwilę zlagować\n\n")
+cecho("<DarkOrange>Inne eventowe NPC\n")
+cecho("<ansiLightMagenta>SS Aedirn\n")
+cecho("<DeepPink>Elisven\n")
+-- Wszystko inne w Ishtar i Imperium
+local inne = {20088, 7995, 959, 4408, 8965, 19801, 4294, 10271, 4549,4084, 4018, 9674, 1967, 1922, 1866, 1863, 24488, 2181, 23872,
+    9509, 9549, 9545, 25332, 2751, 7919, 24408, 23130, 24409,
+    24409, 9321, 9347, 388, 16131, 347, 3748, 1105, 185, 2974, 25288,
+    10760, 3291, 20808, 23664, 20177, 18295, 8550, 7993, 22782, 22512,
+    2794, 16649, 4525, 2840, 4230, 1717, 2840, 1724, 3618, 8058,
+    7118, 7109, 7070, 6303, 2840, 16438, 16439, 16443, 16440,
+    6242, 24525, 16368, 16367, 16366, 16365, 17036, 17037, 6154, 20362,
+    17035, 6096, 6829, 6827, 6826, 6825, 6821, 6790, 11403, 7617, 4202,
+    5227, 5447, 2840, 2840, 2840, 2840, 2840, 8632, 3652, 3641, 10468, 939, 4236, 10175, 24006, 5662, 5669, 5638}
+for k, v in pairs(inne) do 
+    setRoomEnv(v, 111111111111)
+local r,g,b = unpack(color_table.DarkOrange)
+    setCustomEnvColor(111111111111, r,g,b, 255,144,0)
+end
+
+-- Tarwiki 
+local ss = {18774, 20322, 23012, 20069, 24729, 22977, 8229}
+for k, b in pairs(ss) do
+    setRoomEnv(b, 584123131)
+local r,g,b = unpack(color_table.ansiLightMagenta)
+    setCustomEnvColor(584123131, r,g,b, 255,0,255)
+end
+
+-- Elisven
+local elisven = {2770, 3785, 20378, 20403, 20298, 20076, 20073, 20085, 
+                20080, 22982, 2671, 20343, 3387, 3374, 3383, 8754, 8727,
+                8726, 10472, 8646, 20305, 10466, 10106, 20383, 2638, 20334,
+                10470, 2638, 9635, 9641, 9639, 3792, 9298, 8648, 10468, 2636, 20105, 20386}
+for k, c in pairs(elisven) do
+    setRoomEnv(c, 584123131)
+    local r,g,b = unpack(color_table.DeepPink)
+    setCustomEnvColor(33333333333, r,g,b, 255,20,147)
+end
         ]])
 end
 
