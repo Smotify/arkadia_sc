@@ -27,6 +27,7 @@ elseif zmeczenie == 9 then
         zm = "Jestem calkowicie wycienczony"
 end
            ]])
+end
 send("szepnij ".. matches[2] .." "..zm)
 function arkadia_sc:helpSC()
         scHelp = tempAlias("^/sc$", [[
