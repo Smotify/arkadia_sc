@@ -154,7 +154,8 @@ function arkadia_sc:init()
     arkadia_sc:helpSC()
     arkadia_sc:eventySC()
     arkadia_sc:obliczaniePelnie()
-    arkadia_sc:kokonySC
+    arkadia_sc:kokonySC()
+    arkadia_sc:zmeczenieSC()
 end
 
 arkadia_sc:init()
