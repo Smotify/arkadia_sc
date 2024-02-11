@@ -117,8 +117,8 @@ function arkadia_sc:odlozMagieSC()
             ]])
 end
 
-function arkadia_sc:odlozMagieSC()
-    scOdlozMagie = tempAlias("^/kokony$", [[
+function arkadia_sc:kokonySC()
+    scKokony = tempAlias("^/kokony$", [[
 send("rozerwij kokon ; rozerwij 2. kokon ; rozerwij 3. kokon ; wez wszystko z kokonu ; wez wszystko z 2. kokonu; wez wszystko z 3. kokonu ; rozerwij 4. kokon ; wez wszystko z 4. kokonu; rozerwij 5. kokon ; wez wszystko z 5. kokonu ; rozerwij 6. kokon ; wez wszystko z 6. kokonu ; rozerwij 7. kokon ; wez wszystko z 7. kokonu ; rozerwij 8. kokon ; wez wszystko z 8. kokonu ; rozerwij 9. kokon ; wez wszystko z 9. kokonu ; rozerwij 10. kokon ; wez wszystko z 10. kokonu ; rozerwij 11. kokon ; wez wszystko z 11. kokonu ;rozerwij 12. kokon ; wez z niego wszystko ; rozerwij 12. kokon ; wez wszystko z 12. kokonu ; rozerwij 13. kokon ; wez wszystko z 13. kokonu ; rozerwij 14. kokon ; wez z niego wszystko ; rozerwij 16. kokon ; wez z niego wszystko ; rozerwij 17. kokon ; wez z niego wszystko ; rozerwij 18. kokon ; wez z niego wszystko ; rozerwij 19. kokon ; wez z niego wszystko ; rozerwij 20. kokon ; wez z niego wszystko", false)
 ]])
 end
@@ -127,6 +127,7 @@ function arkadia_sc:init()
     arkadia_sc:helpSC()
     arkadia_sc:eventySC()
     arkadia_sc:obliczaniePelnie()
+    arkadia_sc:kokonySC
 end
 
 arkadia_sc:init()
