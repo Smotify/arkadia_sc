@@ -1,0 +1,3 @@
+return {
+    "arkadia_sc"
+}
