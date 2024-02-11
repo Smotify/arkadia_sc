@@ -2,7 +2,7 @@ arkadia_sc = arkadia_sc or {
     state = {}
 }
 
-function arkadia_sc:zmeczenieSC(matches)
+function arkadia_sc:zmeczenieSC()
     scZmeczenie = tempAlias("^/zm (.*)$", [[
         zmeczenie = scripts.character.state.fatigue
         zm = ""
@@ -32,8 +32,6 @@ function arkadia_sc:zmeczenieSC(matches)
     ]])
 end
 
-
-send("szepnij ".. matches[2] .." "..zm)
 function arkadia_sc:helpSC()
         scHelp = tempAlias("^/sc$", [[
             cecho("<green>test")
@@ -160,7 +158,7 @@ function arkadia_sc:init()
     arkadia_sc:eventySC()
     arkadia_sc:obliczaniePelnie()
     arkadia_sc:kokonySC()
-    arkadia_sc:zmeczenieSC(matches)
+    arkadia_sc:zmeczenieSC()
 end
 
 arkadia_sc:init()
