@@ -2,6 +2,36 @@ arkadia_sc = arkadia_sc or {
     state = {}
 }
 
+function arkadia_sc:zmeczenieSC()
+        scZmeczenie = tempAlias("^/zm (.*)$", [[
+                zmeczenie = scripts.character.state.fatigue
+                zm = ""
+                if zmeczenie == 0 then
+                    zm = "Jestem w pelni wypoczety"
+                elseif zmeczenie == 1 then
+                        zm = "Jestem wypoczety"
+                elseif zmeczenie == 2 then
+                        zm = "Jestem troche zmeczony"
+                elseif zmeczenie == 3 then
+                        zm = "Jestem zmeczony"
+                elseif zmeczenie == 4 then
+                        zm = "Jestem bardzo zmeczony"
+                elseif zmeczenie == 5 then
+                        zm = "Jestem nieco wyczerpany"
+                elseif zmeczenie == 6 then
+                        zm = "Jestem wyczerpany"
+                elseif zmeczenie == 7 then
+                        zm = "Jestem bardzo wyczerpany"
+                elseif zmeczenie == 8 then
+                        zm = "Jestem wycienczony"
+                elseif zmeczenie == 9 then
+                        zm = "Jestem calkowicie wycienczony"
+                end
+                
+                send("szepnij ".. matches[2] .." "..zm)
+                   ]])
+        end
+
 send("szepnij ".. matches[2] .." "..zm)
 function arkadia_sc:helpSC()
         scHelp = tempAlias("^/sc$", [[
@@ -129,7 +159,7 @@ function arkadia_sc:init()
     arkadia_sc:eventySC()
     arkadia_sc:obliczaniePelnie()
     arkadia_sc:kokonySC()
-    --arkadia_sc:zmeczenieSC()
+    arkadia_sc:zmeczenieSC()
 end
 
 arkadia_sc:init()
