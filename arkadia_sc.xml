@@ -17,7 +17,7 @@
 			<colorTriggerBgColor>#000000</colorTriggerBgColor>
 			<regexCodeList />
 			<regexCodePropertyList />
-			<TriggerGroup isActive="yes" isFolder="yes" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+			<TriggerGroup isActive="no" isFolder="yes" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
 				<name>niezle</name>
 				<script></script>
 				<triggerType>0</triggerType>
@@ -1557,8 +1557,16 @@ resetFormat()
 						<string>.*mruczy[ aA-zZ]*w[ aA-zZ]*Starszej[ aA-zZ]*Mowie:[ aA-zZ]*[Jj]ak [Zz]meczenie[?.]?</string>
 						<string>.*mruczy[ aA-zZ]*w[ aA-zZ]*Starszej[ aA-zZ]*Mowie:[ aA-zZ]*[Jj]ak [Oo]ddech[?.]?</string>
 						<string>.*mowi[ aA-zZ]*w[ aA-zZ]*Starszej[ aA-zZ]*Mowie:[ aA-zZ]*[Jj]ak [Oo]ddech[?.]?</string>
+						<string>.*mowi:[ a-zA-Z]*[Jj]ak [Oo]ddech[?.]?</string>
+						<string>.*mowi:[ a-zA-Z]*[Oo]ddech[?.]?</string>
+						<string>.*mowi:[ a-zA-Z]*[Zz]meczenie[?.]?</string>
+						<string>.*mowi:[ a-zA-Z]*[Jj]ak [Zz]meczenie[?.]?</string>
 					</regexCodeList>
 					<regexCodePropertyList>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
+						<integer>1</integer>
 						<integer>1</integer>
 						<integer>1</integer>
 						<integer>1</integer>
