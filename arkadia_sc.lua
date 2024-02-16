@@ -60,7 +60,7 @@ function obliczCzas()
     
         local nowaData = os.date("*t", czasDoPrzodu)
     
-        cecho(string.format("<green>\nPełni będzie okolo: %02d:%02d:%02d %d-%02d-%02d\n", 
+        cecho(string.format("<green>\nPełnia będzie okolo: %02d:%02d:%02d %d-%02d-%02d\n", 
                             nowaData.hour, nowaData.min, nowaData.sec,
                             nowaData.year, nowaData.month, nowaData.day))
     
