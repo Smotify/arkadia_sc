@@ -128,6 +128,7 @@ function arkadia_sc:init()
     arkadia_sc:eventySC()
     arkadia_sc:obliczaniePelnie()
     arkadia_sc:kokonySC()
+    arkadia_sc:odlozMagieSC()
 end
 
 arkadia_sc:init()
