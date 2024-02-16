@@ -250,7 +250,7 @@ creplace("&lt;red&gt;\nZostales zatruty! \n&lt;white&gt;[ UWAGA TRUCIZNA ]\n")</
 				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="yes" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
 					<name>Zostalas zatruta!</name>
 					<script>selectString("Zostalas zatruta!",1)
-creplace("&lt;red&gt;\nZostales zatruty! \n&lt;white&gt;[ UWAGA TRUCIZNA ]\n")</script>
+creplace("&lt;red&gt;\nZostalas zatruta! \n&lt;white&gt;[ UWAGA TRUCIZNA ]\n")</script>
 					<triggerType>0</triggerType>
 					<conditonLineDelta>0</conditonLineDelta>
 					<mStayOpen>0</mStayOpen>
