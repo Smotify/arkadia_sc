@@ -8,6 +8,70 @@ function arkadia_sc:helpSC()
             ]])
 end
 
+function arkadia_sc:hpSC()
+        scHp = tempAlias("^/sc hp$", [[
+            send("opusc bronie")
+            expandAlias("/z_przezuj serce_kapitana")
+            expandAlias("/z_przezuj ususzony_ranog")
+            expandAlias("/z_przyloz rojnik")
+            expandAlias("/z_przyloz nagietek")
+            expandAlias("/z_przezuj szczaw")
+            expandAlias("/z_sproszkuj ususzony_przelot")
+            expandAlias("/z_zjedz makownik")
+            expandAlias("/z_rozgryz pieciornik")
+            expandAlias("/z_rozgryz dziurawiec")
+            expandAlias("/z_przezuj ranog")
+            expandAlias("/z_zjedz lawenda")
+            expandAlias("/z_przyloz barwinek")
+            expandAlias("/z_przyloz babka")
+            expandAlias("/z_przezuj mniszek")
+            expandAlias("/z_rozgryz macznica")
+            expandAlias("/z_zjedz ususzony_szafran")
+            expandAlias("/z_przyloz rdest_ptasi")
+            expandAlias("/z_zjedz poslonek")
+            expandAlias("/z_przezuj mieta")
+            expandAlias("/z_przezuj glog")
+            expandAlias("/z_przezuj komosa")
+            expandAlias("/z_rozgryz macznice")
+            expandAlias("/z_rozgryz ususzona_macznice")
+            send("dobadz wszystkie bronie")
+            ]])
+end
+
+function arkadia_sc:zmSC()
+        scZm = tempAlias("^/sc zm$", [[
+            send("opusc bronie")
+            expandAlias("/z_zjedz arnika")
+            expandAlias("/z_przyloz bylica_pospolita")
+            expandAlias("/z_przezuj lak")
+            expandAlias("/z_zjedz melisa")
+            expandAlias("/z_przezuj przesl")
+            expandAlias("/z_powachaj podbial")
+            expandAlias("/z_przyloz szczwol")
+            expandAlias("/z_powachaj mieta")
+            expandAlias("/z_przezuj nostrzyk")
+            expandAlias("/z_przyloz kasztanowiec")
+            expandAlias("/z_zjedz komosa")
+            expandAlias("/z_polknij bobotrutka")
+            expandAlias("/z_przezuj lulecznica")
+            expandAlias("/z_zjedz naparstnica")
+            send("dobadz broni")
+            ]])
+end
+
+function arkadia_sc:sterydySC()
+        scSterydy = tempAlias("^/sc sterydy$", [[
+            send("opusc bronie")
+            expandAlias("/z_przezuj aralia 2")
+            expandAlias("/z_powachaj bielun 2")
+            expandAlias("/z_powachaj krasnodrzew 2")
+            expandAlias("/z_przezuj drath 2")
+            expandAlias("/z_zjedz casur 2")
+            expandAlias("/z_przezuj kulczyba 2")
+            send("dobadz broni")
+            ]])
+end
+
 function arkadia_sc:eventySC()
     scEventy = tempAlias("^/eventy_sc$", [[
 cecho("<red>Koloruje roomy, rusz się w którymś kierunku na mapie, może na chwilę zlagować\n\n")
@@ -124,11 +188,14 @@ send("rozerwij kokon ; rozerwij 2. kokon ; rozerwij 3. kokon ; wez wszystko z ko
 end
 
 function arkadia_sc:init()
+    arkadia_sc:zmSC()
     arkadia_sc:helpSC()
     arkadia_sc:eventySC()
     arkadia_sc:obliczaniePelnie()
     arkadia_sc:kokonySC()
     arkadia_sc:odlozMagieSC()
+    arkadia_sc:hpSC()
+    arkadia_sc:sterydySC()
 end
 
 arkadia_sc:init()
