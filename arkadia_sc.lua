@@ -155,6 +155,12 @@ function arkadia_sc:odlozMagieSC()
             send("wloz zielony luskowaty plaszcz do pnia", false)
             send("wloz ozdobny skorzany plecak do pnia", false)
             send("wloz szare wygodne buty do pnia", false)
+            send("odtrocz glowe", false)
+            send("wez glowe z zalozonego plecaka", false)
+            send("wez glowe ze swojego plecaka", false)
+            send("wez glowe z zalozonej torby", false)
+            send("wez glowe ze swojego torby", false)
+            send("wloz glowy do pnia", false)
             
             send("w", false)
             
