@@ -197,7 +197,7 @@ resetFormat()</script>
 					<string>([Ss]urowy szpakowaty mezczyzna)</string>
 					<string>([Ss]niady wystrojony mezczyzna)</string>
 					<string>([Ss]zmaragdowooka wychudzona kobieta)</string>
-					<string>([Ss]olidna rybacka lodz)</string>
+					<string>([Zz]enner)</string>
 					<string>([Mm]igdalowooka wiotka polelfka)</string>
 					<string>([Pp]otezny zarosniety mezczyzna)</string>
 					<string>([Zz]akapturzony zgarbiony mezczyzna)</string>
@@ -215,8 +215,8 @@ resetFormat()</script>
 					<string>([Ww]szawy jednooki mezczyzna)</string>
 					<string>([Ss]rogi raptawy mezczyzna)</string>
 					<string>([Oo]bladowany niestrudzony mezczyzna)</string>
-					<string>([Zz]enner)</string>
-					<string>([Ss]tary kamienny troll)</string>
+					<string>([Ss]olidna rybacka lodz)</string>
+					<string>([Pp]arzywy silvan)</string>
 					<string>([Ss]zarozielony zwalisty troll)</string>
 					<string>([Pp]odstarzaly zwawy krasnolud)</string>
 					<string>([Pp]rzerosniety wielkostopy troll gorski)</string>
@@ -226,9 +226,9 @@ resetFormat()</script>
 					<string>([Rr]osly blekitnooki mezczyzna)</string>
 					<string>(Darrepin)</string>
 					<string>([Jj]asnowlosy cnotliwy mezczyzna)</string>
-					<string>([Pp]arzywy silvan)</string>
-					<string>([Ss]rebrnobrody rogaty faun)</string>
+					<string>([Ss]tary kamienny troll)</string>
 					<string>([Ss]inozielony przygarbiony troll)</string>
+					<string>([Ss]rebrnobrody rogaty faun)</string>
 				</regexCodeList>
 				<regexCodePropertyList>
 					<integer>1</integer>
