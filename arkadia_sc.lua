@@ -106,7 +106,7 @@ end
 local elisven = {2770, 3785, 20378, 20403, 20298, 20076, 20073, 20085, 2634, 20304,
                 20080, 22982, 2671, 20343, 3387, 3374, 3383, 8754, 8727, 2634, 10471, 
                 8726, 10472, 8646, 20305, 10466, 10106, 20383, 2638, 20334, 19294, 20098,
-                10470, 2638, 9635, 9641, 9639, 3792, 9298, 8648, 10468, 2636, 20105, 20386}
+                10470, 2638, 9635, 9641, 9639, 3792, 9298, 8648, 10468, 2636, 20105, 20386, 20098}
 for k, c in pairs(elisven) do
     setRoomEnv(c, 33333333333)
     local r,g,b = unpack(color_table.DeepPink)
@@ -173,6 +173,8 @@ function arkadia_sc:odlozMagieSC()
             send("wloz czerwone skrzydlate nareczaki do skrzyni", false)
             send("wloz czarny zdobiony helm do skrzyni", false)
             send("wloz owadzioksztaltny brazowy helm do skrzyni", false)
+            send("wloz gadzi polyskujacy pancerz", false)
+            send("luskowy czerwonawy kaftan", false)
             
             send("wloz blekitno-srebrna trojkatna tarcze do kosza", false)
             send("wloz lsniaca plomienista tarcze do kosza", false)
