@@ -170,6 +170,110 @@ resetFormat()</script>
 					<integer>0</integer>
 				</regexCodePropertyList>
 			</Trigger>
+			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+				<name>npc-eventowe</name>
+				<script>selectString(matches[2], 1)
+replace(matches[2] ..  " (klucz)", true)
+fg("purple")
+deselect()
+resetFormat()</script>
+				<triggerType>0</triggerType>
+				<conditonLineDelta>0</conditonLineDelta>
+				<mStayOpen>0</mStayOpen>
+				<mCommand></mCommand>
+				<packageName></packageName>
+				<mFgColor>#cc33ff</mFgColor>
+				<mBgColor>#000000</mBgColor>
+				<mSoundFile></mSoundFile>
+				<colorTriggerFgColor>#000000</colorTriggerFgColor>
+				<colorTriggerBgColor>#000000</colorTriggerBgColor>
+				<regexCodeList>
+					<string>([Bb]ystry zakapturzony skaven)</string>
+					<string>([Rr]osly brazowooki mezczyzna)</string>
+					<string>([Ww]ysoki bezwzgledny czarny ork)</string>
+					<string>([Zz]ylasty zimnooki mezczyzna)</string>
+					<string>([Nn]iespokojny blady gnom)</string>
+					<string>([Ww]ysoki zarosniety mezczyzna)</string>
+					<string>([Ss]urowy szpakowaty mezczyzna)</string>
+					<string>([Ss]niady wystrojony mezczyzna)</string>
+					<string>([Ss]zmaragdowooka wychudzona kobieta)</string>
+					<string>([Ss]olidna rybacka lodz)</string>
+					<string>([Mm]igdalowooka wiotka polelfka)</string>
+					<string>([Pp]otezny zarosniety mezczyzna)</string>
+					<string>([Zz]akapturzony zgarbiony mezczyzna)</string>
+					<string>([Cc]zarnowlosy wyniosly mezczyzna)</string>
+					<string>([Ss]zkaradny przygarbiony mezczyzna)</string>
+					<string>([Cc]zujny mlody mezczyzna)</string>
+					<string>([Mm]loda jasnowlosa dziewczyna)</string>
+					<string>([Zz]wrotna nieduza fusta)</string>
+					<string>([Pp]onury stary szkuner)</string>
+					<string>([Ww]ysoki zakrwawiony halfling)</string>
+					<string>([Nn]ietoperzowy plaskonosy potwor)</string>
+					<string>([Kk]rzepki opalony mezczyzna)</string>
+					<string>([Cc]zarnowlosy grozny mezczyzna)</string>
+					<string>([Nn]iebieskooki potezny mezczyzna)</string>
+					<string>([Ww]szawy jednooki mezczyzna)</string>
+					<string>([Ss]rogi raptawy mezczyzna)</string>
+					<string>([Oo]bladowany niestrudzony mezczyzna)</string>
+					<string>([Zz]enner)</string>
+					<string>([Ss]tary kamienny troll)</string>
+					<string>([Ss]zarozielony zwalisty troll)</string>
+					<string>([Pp]odstarzaly zwawy krasnolud)</string>
+					<string>([Pp]rzerosniety wielkostopy troll gorski)</string>
+					<string>([Mm]ocarny czarnobrody ogr)</string>
+					<string>([Ww]ychudzona szmaragdowooka kobieta)</string>
+					<string>(Khelor)</string>
+					<string>([Rr]osly blekitnooki mezczyzna)</string>
+					<string>(Darrepin)</string>
+					<string>([Jj]asnowlosy cnotliwy mezczyzna)</string>
+					<string>([Pp]arzywy silvan)</string>
+					<string>([Ss]rebrnobrody rogaty faun)</string>
+					<string>([Ss]inozielony przygarbiony troll)</string>
+				</regexCodeList>
+				<regexCodePropertyList>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+					<integer>1</integer>
+				</regexCodePropertyList>
+			</Trigger>
 			<TriggerGroup isActive="yes" isFolder="yes" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
 				<name>Truty info</name>
 				<script></script>
