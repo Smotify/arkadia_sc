@@ -196,6 +196,12 @@ send("rozerwij kokon ; rozerwij 2. kokon ; rozerwij 3. kokon ; wez wszystko z ko
 ]])
 end
 
+
+function arkadia_sc:timerKolorowanieSC()
+    tempTimer(10, [[ expandAlias("/eventy_sc") ]]) 
+end
+
+
 function arkadia_sc:init()
     arkadia_sc:zmSC()
     arkadia_sc:helpSC()
@@ -205,6 +211,7 @@ function arkadia_sc:init()
     arkadia_sc:odlozMagieSC()
     arkadia_sc:hpSC()
     arkadia_sc:sterydySC()
+    arkadia_sc:timerKolorowanieSC()
 end
 
 arkadia_sc:init()
