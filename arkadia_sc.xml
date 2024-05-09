@@ -197,7 +197,7 @@ resetFormat()</script>
 					<string>([Ss]urowy szpakowaty mezczyzna)</string>
 					<string>([Ss]niady wystrojony mezczyzna)</string>
 					<string>([Ss]zmaragdowooka wychudzona kobieta)</string>
-					<string>([Oo]bladowany niestrudzony mezczyzna)</string>
+					<string>([Ss]olidna rybacka lodz)</string>
 					<string>([Mm]igdalowooka wiotka polelfka)</string>
 					<string>([Pp]otezny zarosniety mezczyzna)</string>
 					<string>([Zz]akapturzony zgarbiony mezczyzna)</string>
@@ -215,18 +215,20 @@ resetFormat()</script>
 					<string>([Ww]szawy jednooki mezczyzna)</string>
 					<string>([Ss]rogi raptawy mezczyzna)</string>
 					<string>([Oo]bladowany niestrudzony mezczyzna)</string>
-					<string>([Ss]olidna rybacka lodz)</string>
-					<string>([Pp]arzywy silvan)</string>
+					<string>([Zz]enner)</string>
+					<string>([Ss]tary kamienny troll)</string>
 					<string>([Ss]zarozielony zwalisty troll)</string>
 					<string>([Pp]odstarzaly zwawy krasnolud)</string>
 					<string>([Pp]rzerosniety wielkostopy troll gorski)</string>
 					<string>([Mm]ocarny czarnobrody ogr)</string>
 					<string>([Ww]ychudzona szmaragdowooka kobieta)</string>
+					<string>(Khelor)</string>
 					<string>([Rr]osly blekitnooki mezczyzna)</string>
+					<string>(Darrepin)</string>
 					<string>([Jj]asnowlosy cnotliwy mezczyzna)</string>
-					<string>([Ss]tary kamienny troll)</string>
-					<string>([Ss]inozielony przygarbiony troll)</string>
+					<string>([Pp]arzywy silvan)</string>
 					<string>([Ss]rebrnobrody rogaty faun)</string>
+					<string>([Ss]inozielony przygarbiony troll)</string>
 				</regexCodeList>
 				<regexCodePropertyList>
 					<integer>1</integer>
@@ -1798,6 +1800,26 @@ resetFormat()
 					</regexCodePropertyList>
 				</Trigger>
 			</TriggerGroup>
+			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="yes" isColorizerTrigger="yes" isFilterTrigger="yes" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+				<name>kolory-itemow</name>
+				<script></script>
+				<triggerType>0</triggerType>
+				<conditonLineDelta>0</conditonLineDelta>
+				<mStayOpen>0</mStayOpen>
+				<mCommand></mCommand>
+				<packageName></packageName>
+				<mFgColor>#f3c7ff</mFgColor>
+				<mBgColor>#660a1b</mBgColor>
+				<mSoundFile></mSoundFile>
+				<colorTriggerFgColor>#000000</colorTriggerFgColor>
+				<colorTriggerBgColor>#000000</colorTriggerBgColor>
+				<regexCodeList>
+					<string>([Kk]osciany dlugi sztylet|[Mm]atowa kulka|[Ss]talowy zakrzywiony sztylet|[Rr]ytualny polksiezycowy sierp|[Dd]lugi krwisty sztylet|[Ss]zklana buteleczke|[Ss]zklana buteleczka|[Ww]aski zebaty palasz)</string>
+				</regexCodeList>
+				<regexCodePropertyList>
+					<integer>1</integer>
+				</regexCodePropertyList>
+			</Trigger>
 		</TriggerGroup>
 	</TriggerPackage>
 </MudletPackage>
