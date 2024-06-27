@@ -137,6 +137,9 @@ end
 
 function arkadia_sc:odlozMagieSC()
     scOdlozMagie = tempAlias("^/odloz_magie_sc$", [[
+            send("odtrocz krysztalowa gryfia lampe", false)
+            send("wloz krysztalowa gryfia lampe do pnia", false)    
+            send("wloz osobliwy szklany pierscien do pnia", false)
             send("wloz niepozorny barwny pierscien do pnia", false)
             send("wloz gruba czarna opaske z kolcami do pnia", false)
             send("wloz lekka lsniaca bransolete do pnia", false)
